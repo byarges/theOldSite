@@ -60,10 +60,12 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="newscloud.html">News Cloud</a>
+          <a class="nav-link active" href="#">News Cloud</a>
+        </li>
+        </li>
       </ul>
 
     </div>
@@ -74,63 +76,30 @@
   </header>
 
   <main class="px-3">
-    <h1>Benjamin Yarges</h1>
-    <h4>Software/Web Development/Maker</h4>
-    <p class="lead">The purpose of this website is to be an informal Virtual Business Card as well as a few creative odds and ends.</p>
-    <p class="lead">
-      
-    
+</br></br>
+<h3>
+  What words are in the news this hour?
+</h3>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Contact Me
-</button>
+<p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    info
+  </button>
+</p>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-black" id="exampleModalLabel">Contact Me</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        
-
-        <form class="px-4" action="https://formspree.io/f/xdobkear"
-  method="POST">
-    <div class="mb-3">
-      <label for="exampleDropdownFormEmail1" class="form-label text-black">Your email:</label>
-      <input type="email" class="form-control" name="_replyto" placeholder="email@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleDropdownFormPassword1" class="form-label text-black">Your message:</label>
-      <textarea name="message"></textarea>
-    </div>
-    <div class="mb-3">
-      <div class="form-check">
-
-      </div>
-    </div>
-    
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-        </form>
-
-    </div>
-  </div>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body text-black">
+    <h3>Just a toy project and a work in progress</a></h3>
+    <h4>Code can be found at <a href="https://github.com/byarges/xmlScrapey" class="link-success"target="_blank">https://github.com/byarges/xmlScrapey</a></h4>
+    </br>
+    <h3>The headlines from the following sites are scraped every hour and the top 50 words are presented in the Word Cloud below.</h3><p>nytimes</p><p>washingtonpost</p><p>foxnews</p><p>npr</p><p>democracynow</p><p>newsmax</p>  </div>
 </div>
 
 
-    </p>
+<img src="http://64.227.102.249/wordcloud.png" class="rounded" alt="wordcloud" height=500>
 
-
-  </main>
-
+</main>
+</br>
   <footer class="mt-auto text-white-50">
     <p>Self-developed and maintained. Hosted on GitHub Pages. 2022</p>
   </footer>
