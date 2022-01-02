@@ -1,0 +1,18 @@
+/*
+ * Globals
+ */
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+
+
+
+.experience{
+    padding-top: 50px;
+}
