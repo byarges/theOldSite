@@ -100,21 +100,24 @@
       <div class="modal-body">
         
 
-        <form class="px-4" action="https://formspree.io/f/xdobkear"
+<form class="px-4" action="https://formspree.io/f/xdobkear"
   method="POST">
-    <div class="mb-3">
-      <label for="exampleDropdownFormEmail1" class="form-label text-black">Your email:</label>
-      <input type="email" class="form-control" name="_replyto" placeholder="email@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleDropdownFormPassword1" class="form-label text-black">Your message:</label>
-      <textarea name="message"></textarea>
-    </div>
-    <div class="mb-3">
-      <div class="form-check">
 
-      </div>
+  <div class="mb-3">
+    <label for="exampleDropdownFormEmail1" class="form-label text-black">Your email:</label>
+    <input type="email" class="form-control" name="_replyto" placeholder="email@example.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleDropdownFormPassword1" class="form-label text-black">Your message:</label>
+    <textarea name="message"></textarea>
+  </div>
+
+  <div class="mb-3">
+    <div class="form-check">
+
     </div>
+  </div>
     
 
 
@@ -122,10 +125,11 @@
 
       <div class="g-recaptcha" data-sitekey="6LdzZ-cdAAAAACcj-eoTaEE8884RjcSF2oNdSUBn"></div> <!-- replace with your recaptcha SITE key not secret key -->
 
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-        </form>
+  <div class="modal-footer">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  
+  </div>
+</form>
 
     </div>
   </div>
@@ -133,14 +137,43 @@
 
 
 <!-- TESTING -->
-<form action="https://formspree.io/f/xdobkear" method="POST">
-      <input type="email" name="email" placeholder="email@example.com" />
-      <div class="g-recaptcha" data-sitekey="6LdzZ-cdAAAAACcj-eoTaEE8884RjcSF2oNdSUBn"></div> <!-- replace with your recaptcha SITE key not secret key -->
-      <br/>
-      <input type="submit" value="Submit">
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Contact Me
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-black" id="exampleModalLabel">Contact Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+  <div class="modal-body">
+
+
+<form
+  action="https://formspree.io/f/xdobkear"
+  method="POST"
+class="text-black">
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <div class="g-recaptcha" data-sitekey="6LdzZ-cdAAAAACcj-eoTaEE8884RjcSF2oNdSUBn"></div>
+  <button type="submit">Send</button>
 </form>
 
-
+</div></div></div></div>
 
     </p>
 
